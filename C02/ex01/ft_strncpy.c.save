@@ -1,0 +1,16 @@
+#include <unistd.h>
+#include <stdio.h>
+
+char *ft_strcpy(char *dest, char *src)
+{
+	*dest = *src;
+	return dest;
+}
+
+int main ()
+{
+	char message [] = "hello world";
+	char msg_len = sizeof(message);
+	ft_strcpy(message, source);
+	return 0;
+}
